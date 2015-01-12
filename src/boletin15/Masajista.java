@@ -14,7 +14,10 @@ public class Masajista extends Seleccion {
         this.titulacion = titulacion;
         this.añosExp = añosExp;
     }
-
+    /**
+     * Descripción devuelve un dato
+     * @return titulacion
+     */
     public String getTitulacion() {
         return titulacion;
     }

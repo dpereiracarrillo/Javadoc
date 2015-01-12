@@ -1,4 +1,9 @@
 package boletin15;
+/**
+ * Descripción Boletín 15
+ * @author dpereiracarrillo
+ * @version 1.0
+ */
 
 public class Boletin15 {
 

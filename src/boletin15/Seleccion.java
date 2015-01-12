@@ -18,35 +18,59 @@ public class Seleccion {
         this.id = id;
         edad = e;
     }
-
+    /**
+     * Descripción devuelve un dato
+     * @return nombre
+     */
     public String getNombre() {
         return nombre;
     }
-
+    /**
+     * Descripción coge un dato
+     * @param nombre
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    /**
+     * Descripción devuelve un dato
+     * @return apellidos
+     */
     public String getApellidos() {
         return apellidos;
     }
-
+/**
+ * Descripción coge un dato
+ * @param apellidos 
+ */
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
-
+/**
+ * Descripción devuelve un dato
+ * @return id
+ */
     public int getId() {
         return id;
     }
-
+/**
+ * Descripcion coge un dato
+ * @param id 
+ */
     public void setId(int id) {
         this.id = id;
     }
-
+/**
+ * Descricpion devuelve un dato
+ * @return edad
+ */
     public int getEdad() {
         return edad;
     }
-
+/**
+ * Descripcion coge un dato
+ * @param edad 
+ */
     public void setEdad(int edad) {
         this.edad = edad;
     }

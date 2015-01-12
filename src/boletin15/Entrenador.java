@@ -13,11 +13,16 @@ public class Entrenador extends Seleccion {
         super(n, a, id, e);
         this.ideFederacion = ideFederacion;
     }
-
+    /**
+     * Descripción devuelve un dato
+     * @return ideFederacion
+     */
     public String getIdeFederacion() {
         return ideFederacion;
     }
-
+/**
+     * Descripción coge un dato
+     */
     public void setIdeFederacion(String ideFederacion) {
         this.ideFederacion = ideFederacion;
     }
